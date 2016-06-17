@@ -1,13 +1,9 @@
-#################################################################
-# This script is useful for if you want to commit some files in #
-# git or merge them into the master branch but you are too lazy #
-# or too tired to enter in so many git commands.                #
-#################################################################
-# 																#
-# @author Brian McVeigh											#
-# @date June 17, 2016	   										#
-#                                         						#
-#################################################################
+# This script is useful for if you want to commit some files in 
+# git or merge them into the master branch but you are too lazy 
+# or too tired to enter in so many git commands.
+
+# @author Brian McVeigh
+# @date June 17, 2016
 
 read -e -p "Should we merge to the master branch (y/n)?" merge_to_master
 git status
